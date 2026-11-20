@@ -2,7 +2,7 @@
 def sum_1_to_n(n=1000000):
     return n * (n + 1) // 2
 
-# Задача 2: two sum (исправлено: was two-pointer — только для sorted; теперь через dict)
+# Задача 2: two sum 
 def two_sum(nums, target):
     left = 0
     right = len(nums) - 1
